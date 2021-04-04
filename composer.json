@@ -1,5 +1,5 @@
 {
-    "name": "wablab-com/hashed-tree",
+    "name": "wablab-com/data-structure",
     "type": "library",
     "authors": [
         {
@@ -12,7 +12,8 @@
     },
     "autoload": {
         "psr-4": {
-            "WabLab\\HashedTree\\": "src/",
+            "WabLab\\HashedTree\\": "src/HashedTree",
+            "WabLab\\DoublyLinkedList\\": "src/DoublyLinkedList",
             "WabLab\\Tests\\": "tests/"
         }
     },

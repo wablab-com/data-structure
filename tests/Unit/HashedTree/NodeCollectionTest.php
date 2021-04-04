@@ -1,6 +1,6 @@
 <?php
 
-namespace WabLab\Tests\Unit;
+namespace WabLab\Tests\Unit\HashedTree;
 
 use WabLab\HashedTree\Contract\INodeTree;
 use WabLab\Tests\AbstractTestCase;
