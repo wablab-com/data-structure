@@ -3,12 +3,12 @@
 namespace WabLab\HashedTree;
 
 
+use WabLab\DoublyLinkedList\DLNode;
 use WabLab\HashedTree\Contract\IHashedNode;
 
-class Node implements IHashedNode
+class Node extends DLNode implements IHashedNode
 {
     private string $hash;
-    private $payload;
 
     public function __construct(string $hash, $payload)
     {
@@ -26,13 +26,4 @@ class Node implements IHashedNode
         $this->hash = $hash;
     }
 
-    public function getPayload()
-    {
-        return $this->payload;
-    }
-
-    public function setPayload($payload)
-    {
-        $this->payload = $payload;
-    }
 }
